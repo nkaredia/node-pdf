@@ -1,0 +1,7 @@
+{
+  "$schema": "./schema.json",
+  "passwords": "abc123|xyz789",
+  "decryptedPath": "/absolulet/path",
+  "originPath": "/absolute/path",
+  "tempDestinationPath": "foldername"
+}

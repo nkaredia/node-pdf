@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Node PDF configuration",
+  "type": "object",
+  "properties": {
+    "passwords": {
+      "type": "string",
+      "description": "Use more than 1 password to unlock pdf using pipe '|'."
+    },
+    "originPath": {
+      "type": "string"
+    },
+    "decryptedPath": {
+      "type": "string"
+    },
+    "tempDestinationPath": {
+      "type": "string",
+      "description": "Only use folder name. This will generate a folder under home directory."
+    }
+  },
+  "required": [
+    "passwords",
+    "originPath",
+    "decryptedPath",
+    "tempDestinationPath"
+  ]
+}

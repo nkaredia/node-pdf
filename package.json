@@ -1,0 +1,17 @@
+{
+  "name": "node-pdf",
+  "version": "1.0.0",
+  "description": "PDF text extractor extracts text",
+  "main": "index.js",
+  "dependencies": {
+    "hummus": "^1.0.87",
+    "lodash": "^4.17.10",
+    "pdf-parse": "^1.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Noorsil Karedia",
+  "license": ""
+}
